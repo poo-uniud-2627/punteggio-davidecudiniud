@@ -82,7 +82,7 @@ public class Punteggio {
             }
         }
     }
-    public void aggiornaVincita(){
+    private void aggiornaVincita(){
         if(Aggiornamenti==false){
             puntiPerVincereOriginale=puntiPerVincere;
             Aggiornamenti=true;
